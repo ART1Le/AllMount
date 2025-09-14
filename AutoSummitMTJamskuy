@@ -12,7 +12,7 @@ task.defer(function()
     local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
     -- CONFIG
-    local FORCE_MODE = "RESPAWN" -- "RESPAWN" / "REJOIN"
+    local FORCE_MODE = "REJOIN" -- "RESPAWN" / "REJOIN"
     local AUTO_RESPAWN_UI = true -- auto klik tombol respawn UI
     local TELEPORT_STYLE = "instant"
     local DEFAULT_DELAY = 1.5
